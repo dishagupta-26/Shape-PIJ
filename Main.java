@@ -77,6 +77,9 @@ public class Main {
             }
 
             if (volumeShape != null) {
+                if (volumeShape instanceof Shape) {
+                    System.out.println("Surface Area: " + ((Shape) volumeShape).calculateArea());
+                }
                 System.out.println("Volume: " + volumeShape.calculateVolume());
             }
         }
