@@ -1,5 +1,5 @@
 // cylinder class estends shape class implements volume interface
-public class Cylinder {
+public class Cylinder extends Shape implements Volume {
     private double radius, height;
 
     // constructor
@@ -7,5 +7,10 @@ public class Cylinder {
         super("Cylinder");
         this.radius = radius;
         this.height = height;
+    }
+
+    @Override
+    public double calculateArea() {
+        return 2 * Math.PI * radius * (radius + height);
     }
 }
