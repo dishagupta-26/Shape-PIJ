@@ -1,4 +1,11 @@
 // rectangle class extends shape class
 public class Rectangle extends Shape {
+    private double length, width;
 
+    // constructor
+    public Rectangle(double length, double width) {
+        super("Rectangle");
+        this.length = length;
+        this.width = width;
+    }
 }
