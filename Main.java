@@ -18,6 +18,7 @@ public class Main {
             System.out.println("5. Cylinder");
             System.out.println("6. Equilateral Pyramid");
             System.out.println("7. Exit");
+            System.out.print("Enter your choice: ");
 
             int choice = sc.nextInt();
 
@@ -63,6 +64,7 @@ public class Main {
                     break;
                 case 7:
                     System.out.println("Exiting...");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid choice");
