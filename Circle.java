@@ -9,4 +9,9 @@ public class Circle extends Shape {
         super("Circle");
         this.radius = radius;
     }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
 }
