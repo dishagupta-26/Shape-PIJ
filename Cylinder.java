@@ -1,4 +1,4 @@
-// cylinder class estends shape class implements volume interface
+// cylinder class extends shape class implements volume interface
 public class Cylinder extends Shape implements Volume {
     private double radius, height;
 
