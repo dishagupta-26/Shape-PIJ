@@ -17,4 +17,9 @@ public class Sphere extends Shape implements Volume {
     public double calculatePerimeter() {
         return 0; // as perimeter is not applicable for sphere
     }
+
+    @Override
+    public double calculateVolume() {
+        return (4.0 / 3.0) * Math.PI * radius * radius * radius;
+    }
 }
