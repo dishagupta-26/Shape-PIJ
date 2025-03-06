@@ -22,4 +22,9 @@ public class EquilateralPyramid extends Shape implements Volume {
         return 4 * baseSide;
     }
 
+    @Override
+    public double calculateVolume() {
+        return (1.0 / 3.0) * (baseSide * baseSide) * height;
+    }
+
 }
